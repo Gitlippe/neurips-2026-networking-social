@@ -109,3 +109,10 @@ sup a { text-decoration: none; font-weight: 600; }
 
 .avatar-photo { object-fit: cover; display: block; background: var(--alt); }
 .org .avatar { width: 64px; height: 64px; }
+
+/* Careers note */
+.careers-note { margin-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem 2rem; background: var(--card); border: 1px dashed #cfc6f7; border-radius: var(--radius); padding: 1.25rem 1.5rem; }
+.careers-note h3 { font-size: 1.05rem; margin: 0 0 .25rem; }
+.careers-note p { margin: 0; color: var(--muted); font-size: .97rem; max-width: 620px; }
+.careers-link { flex: none; font-weight: 600; text-decoration: none; color: var(--brand); border: 2px solid var(--brand); border-radius: 999px; padding: .55rem 1.1rem; }
+.careers-link:hover { background: var(--brand); color: #fff; }
