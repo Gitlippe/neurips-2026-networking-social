@@ -93,3 +93,16 @@ sup a { text-decoration: none; font-weight: 600; }
   .step-time { border-right: 0; border-bottom: 2px dashed #d9d2fb; padding: 0 0 .75rem; text-align: left; display: flex; align-items: baseline; gap: .4rem; }
   .step-time span { display: inline; font-size: 2rem; }
 }
+
+/* Details + CTAs */
+.cta-row { display: flex; flex-wrap: wrap; justify-content: center; gap: .75rem; }
+.btn-ghost { background: transparent; color: #fff; border: 2px solid rgba(255,255,255,.5); }
+.btn-ghost:hover { border-color: var(--accent); }
+.details { padding-top: clamp(2.5rem, 6vw, 4rem); }
+.detail-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.25rem; }
+.detail { background: var(--card); border-radius: var(--radius); padding: 1.5rem; box-shadow: var(--shadow); border-top: 4px solid var(--brand); }
+.detail p { margin-bottom: .6rem; }
+.detail .small { color: var(--muted); font-size: .92rem; margin: 0; }
+.section.alt2 { background: #fff; }
+.footer-link { color: var(--accent); font-weight: 600; }
+.detail a { overflow-wrap: anywhere; }

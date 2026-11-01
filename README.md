@@ -4,6 +4,11 @@ Event website for the NeurIPS 2026 social **"How to Network at an AI Conference"
 
 **Live site:** https://gitlippe.github.io/neurips-2026-networking-social/
 
+## The event
+- **When:** Thursday, December 10, 2026, 7:00–9:00 PM Paris time (CET). The NeurIPS site lists it as "Fri, Dec 11, 2026 · 5:00 AM – 7:00 AM AEDT" (conference Sydney time).
+- **Where:** Palais des Congrès Room 153, Palais des Congrès de Paris, 2 Place de la Porte Maillot, 75017 Paris (NeurIPS 2026 Paris)
+- **Official listing:** https://neurips.cc/virtual/2026/loc/paris/social/180835
+
 ## What's on the page
 - Event description and the research behind it
 - The 2-hour agenda (intro, icebreakers & speed-networking, themed round tables, wrap-up & mingling)
@@ -11,8 +16,7 @@ Event website for the NeurIPS 2026 social **"How to Network at an AI Conference"
 - References
 
 ## Still to fill in
-- **Date, time and room** are currently shown as "to be announced" (hero and footer in `index.html`).
-- Optional: an RSVP or calendar link, organizer photos or links.
+- Optional: an RSVP link (the official listing has none), organizer photos or links.
 
 ## Editing
 Plain HTML and CSS, no build step. Edit `index.html` / `styles.css`, commit and push to `main`; GitHub Pages redeploys automatically from the repository root.
