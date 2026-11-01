@@ -106,3 +106,6 @@ sup a { text-decoration: none; font-weight: 600; }
 .section.alt2 { background: #fff; }
 .footer-link { color: var(--accent); font-weight: 600; }
 .detail a { overflow-wrap: anywhere; }
+
+.avatar-photo { object-fit: cover; display: block; background: var(--alt); }
+.org .avatar { width: 64px; height: 64px; }
